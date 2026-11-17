@@ -5,7 +5,6 @@
 struct swift_executable {
     static func main() {
         print("Hello, world!")
-        var dte = "sd"
-        print(dte)
+        swift.main()
     }
 }

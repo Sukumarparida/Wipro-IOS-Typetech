@@ -4,7 +4,6 @@
 @main
 struct swift_executable {
     static func main() {
-        print("Hello, world!")
-        swift.main()
+        array.main()
     }
 }

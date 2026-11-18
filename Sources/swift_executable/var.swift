@@ -1,16 +1,16 @@
 
 struct swift {
     static func main(){
-        var h1 = "Hello, World!"
-        var h2 = "hello"
+        let h1 = "Hello, World!"
+        let h2 = "hello"
         print("\(h1) \(h2)")
-        var h3:Int?
-        print(h3)
+        let h3: Int? = nil
+        print(h3.map { String($0) } ?? "nil")
         if h3 == nil {
             print("h3 is nil")
         }
-        var i :Int ,j:Int
-        i = 10;j = 10
+        let i = 10
+        let j = 10
         print("i = \(i) j = \(j)");
         var nickname: String? = nil
         print(nickname ?? "(none)")
@@ -19,9 +19,9 @@ struct swift {
         print(name)
         }
 
-        var 🐶 = "dog"
+        let 🐶 = "dog"
         print("🐶 = \(🐶)")
-        var bool = true
+        let bool = true
         print("bool = \(bool)")
     }
 }

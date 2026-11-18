@@ -35,8 +35,20 @@ struct array {
         print(slama)
 
         //one sided slice
-        let oneSlided = [1,2,3,4,5]
+        let oneSlided = [1,2,3,4,50]
         print(oneSlided[2...])
         print(oneSlided[...2])
+        print(oneSlided.startIndex)
+
+        //indices
+
+        for i in oneSlided.indices {
+            print("\(i) , \(oneSlided[i])")
+        }
+        print(oneSlided[0..<oneSlided.count])
+
+        let lastIndex = oneSlided.index(before: oneSlided.endIndex)
+        print(lastIndex)
+        print(oneSlided[lastIndex])
     }
 }

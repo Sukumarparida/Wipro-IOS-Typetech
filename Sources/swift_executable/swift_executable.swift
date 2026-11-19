@@ -4,6 +4,6 @@
 @main
 struct swift_executable {
     static func main() {
-        d2array.main()
+        collections.main()
     }
 }
